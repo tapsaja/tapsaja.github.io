@@ -1,7 +1,7 @@
 # Site
 name: "tap"
 title: "TAP !"
-description: "I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!"
+description: "In a perfect world, the word perfect doesn't exist!"
 logo: 'assets/images/favicon.svg'
 favicon: 'assets/images/favicon.svg'
 baseurl: ''
@@ -86,5 +86,9 @@ authorbox: "enabled"
 sass:
   sass_dir: _sass
   style: compressed
+
+# SEO
+seo:
+  generator: false
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
