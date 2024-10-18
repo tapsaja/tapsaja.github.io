@@ -66,3 +66,9 @@ puts markdown.to_html
 ```c
 printf("Hello World");
 ```
+
+#### Shell
+
+```shellsession
+sudo apt update
+```

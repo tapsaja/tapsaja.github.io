@@ -33,7 +33,7 @@ authors:
   tap:
     name: tap
     display_name: tap
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/tap.webp'
     email: tap@e.email
     web: https://tapsaja.github.io
     twitter: https://twitter.com/tap_saja
