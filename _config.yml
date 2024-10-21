@@ -21,7 +21,7 @@ authors:
     name: tap
     display_name: tap
     avatar: 'assets/images/tap.webp'
-    email: tap@e.email
+    email: '/contact'
     web: https://tapsaja.github.io
     twitter: https://twitter.com/tap_saja
     description: "Just tap it, will ya"
