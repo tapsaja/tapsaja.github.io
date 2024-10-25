@@ -26,10 +26,8 @@
 {% assign maxRelatedCounter = 0 %}
                 <div class="blog-grid-container">
 {% for post in site.posts %}
-        
             {% assign sameTagCount = 0 %}
             {% assign commonTags = '' %}
-        
             {% for category in post.categories %}
             {% if post.url != page.url %}
                 {% if page.categories contains category %}
@@ -39,7 +37,6 @@
                 {% endif %}
             {% endif %}
             {% endfor %}
-        
             {% if sameTagCount >= minCommonTags %}
             {% include postbox.html %}
             {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
@@ -47,7 +44,6 @@
                 {% break %}
             {% endif %}
             {% endif %}
-        
         {% endfor %}
                 </div>        
             </div>
