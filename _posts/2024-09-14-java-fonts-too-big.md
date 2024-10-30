@@ -2,7 +2,7 @@
 layout: post
 title:  "Java apps fonts too big"
 author: tap
-categories: [ Logs, GUI ]
+categories: [ Logs, GUI, English ]
 tags: [ Java, ElementaryOS, SweetHome3D ]
 image: assets/images/javafonts-big.webp
 ---
