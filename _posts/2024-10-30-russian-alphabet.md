@@ -13,5 +13,3 @@ But diferent alphabet system is really a big obstacle, makes the learning proces
 <div>
 You can download it <a href="/assets/files/russky-alphabet_a3.pdf" title="Russian Alphabet PDF">here <i class="fas fa-file-pdf"></i></a>
 </div>
-
-> Picture: Moscow Retro by Francesco Di Beutierio
