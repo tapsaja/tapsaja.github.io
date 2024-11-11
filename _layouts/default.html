@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="icon" href="{{ site.baseurl }}/{{ site.favicon }}">
-{% if page.title == "Home" %}
+{% if page.url == '/' %}
 <title>tapsaja | just tap it!</title>
 {% else %}
 <title>{{ page.title }} | {{site.name}}</title>
@@ -67,6 +67,7 @@
     <div class="container">
         <a class="navbar-brand" href="{{ site.baseurl }}/">
             <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+            <span style="font-size:2.5rem;font-weight:bold;color:black"> tapsaja</span>
         </a>  
     {% if page.url == '/' %}
         <p class="sitetag">
