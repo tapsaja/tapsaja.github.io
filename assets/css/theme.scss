@@ -606,6 +606,9 @@ body.active-side {
     background:#fff;
 }
 
+.footer a {
+    color: darkgreen;
+}
 //responsive tweaks
 @media (min-width: 768px) {
     .container, .container-sm, .container-md, .container-lg {
