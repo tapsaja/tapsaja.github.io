@@ -5,9 +5,9 @@ description: "In a perfect world, the word perfect doesn't exist!"
 logo: 'assets/images/favicon.svg'
 favicon: 'assets/images/favicon.svg'
 baseurl: ''
-google_analytics: 'UA-xxxxxxxx-1'
-analytics : "disabled"
-matomo: "enabled"
+google_analytics: 'G-QHF2SGC76S'
+analytics : "enabled"
+matomo: "disabled"
 matomo_site: "https://motodb.eu.org/"
 matomo_id: "2"
 disqus: 'tapsaja'
