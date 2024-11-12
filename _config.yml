@@ -17,6 +17,7 @@ contact-form: 'https://formspree.io/f/xrbggvqa'
 include: ["_pages"]
 permalink: /:year:month/:title/
 email: tap@e.email
+localcss: "true"
 
 # Authors
 authors:

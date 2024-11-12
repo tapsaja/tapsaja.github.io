@@ -42,8 +42,13 @@
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body>
 <noscript id="deferred-styles">
+{% if site.localcss == 'true' %}
+	<link href="{{ site.baseurl }}/assets/css/fonts-min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/fa-5013-all-min.css" rel="stylesheet">
+{% else %}
 	<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+{% endif %}    
 </noscript>
 
 <div class="sidebar">    
