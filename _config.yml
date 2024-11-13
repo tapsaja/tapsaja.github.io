@@ -2,14 +2,15 @@
 name: "tap"
 title: "TAP !"
 description: "In a perfect world, the word perfect doesn't exist!"
-logo: 'assets/images/favicon.svg'
-favicon: 'assets/images/favicon.svg'
+logo: 's/images/favicon.svg'
+favicon: 's/images/favicon.svg'
 baseurl: ''
 google_analytics: 'G-QHF2SGC76S'
 analytics : "enabled"
 matomo: "disabled"
 matomo_site: "https://motodb.eu.org/"
 matomo_id: "2"
+cdnurl: "https://static.tapsaja.eu.org" #no trailing slash
 disqus: 'tapsaja'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 mailchimp-list: '/form'
@@ -24,7 +25,7 @@ authors:
   tap:
     name: tap
     display_name: tap
-    avatar: 'assets/images/tap.webp'
+    avatar: 's/images/tap.webp'
     email: '/contact'
     web: https://tapsaja.github.io
     twitter: https://twitter.com/tap_saja

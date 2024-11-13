@@ -3,16 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="icon" href="{{ site.baseurl }}/{{ site.favicon }}">
+<link rel="icon" href="{{ site.cdnurl }}/{{ site.favicon }}">
 {% if page.url == '/' %}
 <title>tapsaja - just tap it!</title>
 {% else %}
 <title>{{ page.title }} | {{site.name}}</title>
 {% endif %}
 {% seo %}
-<link href="{{ site.baseurl }}/assets/css/prism.css" rel="stylesheet">
-<link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
-<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<link href="{{ site.cdnurl }}/s/css/prism.css" rel="stylesheet">
+<link href="{{ site.cdnurl }}/s/css/theme.css" rel="stylesheet">
+<script src="{{ site.cdnurl }}/s/js/jquery.min.js"></script>
 {% if jekyll.environment == 'production' and site.matomo == 'enabled' %}
 <script>
     var _paq = window._paq = window._paq || [];
@@ -43,8 +43,8 @@
 <body>
 <noscript id="deferred-styles">
 {% if site.localcss == 'true' %}
-	<link href="{{ site.baseurl }}/assets/css/fonts-min.css" rel="stylesheet">
-    <link href="{{ site.baseurl }}/assets/css/fa-5013-all-min.css" rel="stylesheet">
+	<link href="{{ site.cdnurl }}/s/css/fonts-min.css" rel="stylesheet">
+    <link href="{{ site.cdnurl }}/s/css/fa-5013-all-min.css" rel="stylesheet">
 {% else %}
 	<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -71,7 +71,7 @@
 <div class="site-content {% if page.url == '/' %} firstpage {% endif %}">
     <div class="container">
         <a class="navbar-brand" href="{{ site.baseurl }}/">
-            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+            <img src="{{ site.cdnurl }}/{{ site.logo }}" alt="{{ site.name }}">
             <span style="font-size:2.5rem;font-weight:bold;color:black"> tapsaja</span>
         </a>  
     {% if page.url == '/' %}
@@ -86,7 +86,7 @@
 
     {% if site.mailchimp-list %}
         <div class="newsletter text-center">
-            <span class="h4"><img src="{{ site.baseurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
+            <span class="h4"><img src="{{ site.cdnurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
             <form action="{{site.mailchimp-list}}" method="get" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
                 <div class="mc-field-group d-inline-flex">
                     <input type="email" placeholder="Your e-mail" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required>
@@ -105,7 +105,7 @@
                     Copyright © {{ site.time | date: "%Y" }} {{ site.name }}.
                 </div>
                 <div class="col-md-6 col-sm-12 text-center text-lg-right">  
-                    Some rights reserved. <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer nofollow" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="/assets/images/cc.svg" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="/assets/images/by.svg" alt=""></a>
+                    Some rights reserved. <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer nofollow" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="{{ site.cdnurl }}/s/images/cc.svg" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="{{ site.cdnurl }}/s/images/by.svg" alt=""></a>
                 </div>
             </div>
         </div>
@@ -113,11 +113,11 @@
 
 </div> 
 
-<script src="{{ site.baseurl }}/assets/js/prism.js"></script>
-<script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+<script src="{{ site.cdnurl }}/s/js/prism.js"></script>
+<script src="{{ site.cdnurl }}/s/js/theme.js"></script>
 
 {% if site.lazyimages == "enabled" %}
-<script src="{{ site.baseurl }}/assets/js/lazyload.js"></script>
+<script src="{{ site.cdnurl }}/s/js/lazyload.js"></script>
 {% endif %}
 
 {% if page.layout == 'post' %}

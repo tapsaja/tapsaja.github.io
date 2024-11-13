@@ -4,7 +4,7 @@ title:  "WPS Office Export to PDF Error"
 author: tap
 categories: [ Logs, English ]
 tags: [ Linuxmint, Ubuntu, WPS, PDF ]
-image: assets/images/wps-pdf-error.webp
+image: s/images/wps-pdf-error.webp
 beforetoc: "It was a fresh install but WPS can not export to PDF"
 toc: false
 ---
@@ -26,4 +26,4 @@ me:~$ sudo ln -s /usr/lib/x86_64-linux-gnu/libtiff.so.6 /usr/lib/x86_64-linux-gn
 
 ... and it works!
 
-![Yes, it works!](/assets/images/wps-pdf-ok.webp)
+![Yes, it works!](https://static.tapsaja.eu.org/s/images/wps-pdf-ok.webp)

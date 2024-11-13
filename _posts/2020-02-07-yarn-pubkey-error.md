@@ -4,7 +4,7 @@ title:  "Yarn Pubkey Error"
 author: tap
 categories: [ Logs, Indonesian ]
 tags: [ ElementaryOS, Ubuntu, Pubkey, Yarn ]
-image: assets/images/yarn-error.webp
+image: s/images/yarn-error.webp
 beforetoc: "Sistem update software di laptopku tiba-tiba error (minor) dengan pesan seperti pada gambar tangkapan layar di atas"
 toc: true
 ---

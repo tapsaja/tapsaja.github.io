@@ -4,7 +4,7 @@ title:  "Java apps fonts too big"
 author: tap
 categories: [ Logs, GUI, English ]
 tags: [ Java, ElementaryOS, SweetHome3D ]
-image: assets/images/javafonts-big.webp
+image: s/images/javafonts-big.webp
 ---
 This was happened when I first tried to run SweetHome3D Portable. As it was a portable software, I didn't want to be bothered by installing it. The apps was running, but as you can see at the picture above, the fonts were way too big on my screen.
 
@@ -90,4 +90,4 @@ exec "$PROGRAM_DIR"/runtime/linux/x64/runtime/bin/java \
 ```
 And voila! Here's the result:
 
-![Result](/assets/images/javafonts-normal.webp)
+![Result](https://static.tapsaja.eu.org/s/images/javafonts-normal.webp)
