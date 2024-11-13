@@ -10,9 +10,9 @@
 <title>{{ page.title }} | {{site.name}}</title>
 {% endif %}
 {% seo %}
-<link href="{{ site.cdnurl }}/s/css/prism.css" rel="stylesheet">
 <link href="{{ site.cdnurl }}/s/css/theme.css" rel="stylesheet">
-<script src="{{ site.cdnurl }}/s/js/jquery.min.js"></script>
+<link href="{{ site.cdnurl }}/s/css/prism.min.css" rel="stylesheet" defer>
+<script src="{{ site.cdnurl }}/s/js/jquery.min.js" async></script>
 {% if jekyll.environment == 'production' and site.matomo == 'enabled' %}
 <script>
     var _paq = window._paq = window._paq || [];
@@ -43,8 +43,8 @@
 <body>
 <noscript id="deferred-styles">
 {% if site.localcss == 'true' %}
-	<link href="{{ site.cdnurl }}/s/css/fonts-min.css" rel="stylesheet">
-    <link href="{{ site.cdnurl }}/s/css/fa-5013-all-min.css" rel="stylesheet">
+	<link href="{{ site.cdnurl }}/s/css/fonts.min.css" rel="stylesheet">
+    <link href="{{ site.cdnurl }}/s/css/fa-5013-all.min.css" rel="stylesheet" defer>
 {% else %}
 	<link href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
