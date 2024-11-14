@@ -6,7 +6,7 @@ logo: 's/images/favicon.svg'
 favicon: 's/images/favicon.svg'
 baseurl: ''
 google_analytics: 'G-QHF2SGC76S'
-analytics : "enabled"
+analytics : "disabled"
 matomo: "disabled"
 matomo_site: "https://motodb.eu.org/"
 matomo_id: "2"
