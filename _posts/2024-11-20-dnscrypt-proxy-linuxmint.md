@@ -50,6 +50,7 @@ Konfigurasi bawaannya disimpan dalam berkas `/etc/dnscrypt-proxy/dnscrypt-proxy.
 
 3. Simpan (`Ctrl+O`, `Enter`, `Ctrl+X`).
   Dan berikut ini adalah contoh pada laptop saya
+  
   ```toml
   # Empty listen_addresses to use systemd socket activation
   listen_addresses = ['127.0.2.1:53']
@@ -68,7 +69,6 @@ Konfigurasi bawaannya disimpan dalam berkas `/etc/dnscrypt-proxy/dnscrypt-proxy.
   minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
   refresh_delay = 72
   prefix = ''
-
   ```
 
 ### **3. Menyetel DNSCrypt Proxy sebagai Resolver Sistem**
