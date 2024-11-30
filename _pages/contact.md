@@ -6,7 +6,8 @@ comments: false
 ---
 
 <form action="{{site.contact-form}}" method="POST">    
-<p class="mb-4">Please send your message to {{site.name}}. We will reply as soon as possible!</p>
+<p class="mb-4">Please send your message to me. I will reply as soon as possible!</p>
+<p>If you prefer via email, you send an encrypted message to key ID 0xB0F700AFDC157B7B (listed on keys.mailvelope.com and keys.openpgp.org).</p>
 <div class="form-group row">
 <div class="col-md-6">
 <input class="form-control" type="text" name="name" placeholder="Name*" required>
